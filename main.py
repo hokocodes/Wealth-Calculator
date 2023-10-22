@@ -1,10 +1,10 @@
-div = 0.01
-c = 1000
-i = 100000
-interest = 0
-
+div = 0.01 #dividend interest rate
+c = int(input('Enter in your monthly contribution: ')) #monthly contribution
+i = int(input('Enter in your starting investments balance: ')) #starting balance
+interest = 0 #starting interest gained balance
+months = input('Enter in how many months you want to calculate for: ')
 count = 1
-while count < 100:
+while count <= int(months):
   print("month " + str(count))
   print("invested " + str(i) )
   print("interest in total gained " + str(interest))
